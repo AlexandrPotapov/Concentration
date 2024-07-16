@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1191BCEA2C466043005E4C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191BCE92C466043005E4C46 /* AppDelegate.swift */; };
-		1191BCEC2C466043005E4C46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191BCEB2C466043005E4C46 /* SceneDelegate.swift */; };
-		1191BCEE2C466043005E4C46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191BCED2C466043005E4C46 /* ViewController.swift */; };
 		1191BCF12C466043005E4C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1191BCEF2C466043005E4C46 /* Main.storyboard */; };
 		1191BCF32C466044005E4C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1191BCF22C466044005E4C46 /* Assets.xcassets */; };
 		1191BCF62C466044005E4C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1191BCF42C466044005E4C46 /* LaunchScreen.storyboard */; };
+		1191BCFF2C46616A005E4C46 /* ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191BCFE2C46616A005E4C46 /* ConcentrationThemeChooserViewController.swift */; };
+		1191BD012C4661BD005E4C46 /* ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191BD002C4661BD005E4C46 /* ConcentrationViewController.swift */; };
+		1191BD032C46629D005E4C46 /* VCLLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191BD022C46629D005E4C46 /* VCLLoggingViewController.swift */; };
+		1191BD052C4662CE005E4C46 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191BD042C4662CE005E4C46 /* Card.swift */; };
+		1191BD072C46630D005E4C46 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191BD062C46630D005E4C46 /* Concentration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1191BCE62C466043005E4C46 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1191BCE92C466043005E4C46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1191BCEB2C466043005E4C46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1191BCED2C466043005E4C46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1191BCF02C466043005E4C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1191BCF22C466044005E4C46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1191BCF52C466044005E4C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1191BCF72C466044005E4C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1191BCFE2C46616A005E4C46 /* ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
+		1191BD002C4661BD005E4C46 /* ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationViewController.swift; sourceTree = "<group>"; };
+		1191BD022C46629D005E4C46 /* VCLLoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLLoggingViewController.swift; sourceTree = "<group>"; };
+		1191BD042C4662CE005E4C46 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1191BD062C46630D005E4C46 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		1191BCE82C466043005E4C46 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				1191BCE92C466043005E4C46 /* AppDelegate.swift */,
-				1191BCEB2C466043005E4C46 /* SceneDelegate.swift */,
-				1191BCED2C466043005E4C46 /* ViewController.swift */,
 				1191BCEF2C466043005E4C46 /* Main.storyboard */,
-				1191BCF22C466044005E4C46 /* Assets.xcassets */,
-				1191BCF42C466044005E4C46 /* LaunchScreen.storyboard */,
+				1191BCFE2C46616A005E4C46 /* ConcentrationThemeChooserViewController.swift */,
+				1191BD002C4661BD005E4C46 /* ConcentrationViewController.swift */,
+				1191BD022C46629D005E4C46 /* VCLLoggingViewController.swift */,
+				1191BD042C4662CE005E4C46 /* Card.swift */,
+				1191BD062C46630D005E4C46 /* Concentration.swift */,
+				1191BCFD2C466095005E4C46 /* Supporting Files */,
 				1191BCF72C466044005E4C46 /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		1191BCFD2C466095005E4C46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1191BCE92C466043005E4C46 /* AppDelegate.swift */,
+				1191BCF22C466044005E4C46 /* Assets.xcassets */,
+				1191BCF42C466044005E4C46 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +116,7 @@
 				TargetAttributes = {
 					1191BCE52C466043005E4C46 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = "";
 					};
 				};
 			};
@@ -138,9 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1191BCEE2C466043005E4C46 /* ViewController.swift in Sources */,
+				1191BCFF2C46616A005E4C46 /* ConcentrationThemeChooserViewController.swift in Sources */,
+				1191BD012C4661BD005E4C46 /* ConcentrationViewController.swift in Sources */,
+				1191BD052C4662CE005E4C46 /* Card.swift in Sources */,
+				1191BD032C46629D005E4C46 /* VCLLoggingViewController.swift in Sources */,
 				1191BCEA2C466043005E4C46 /* AppDelegate.swift in Sources */,
-				1191BCEC2C466043005E4C46 /* SceneDelegate.swift in Sources */,
+				1191BD072C46630D005E4C46 /* Concentration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +320,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +348,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
