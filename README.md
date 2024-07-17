@@ -9,8 +9,6 @@
 
 • Логика игры: Игра использует алгоритмы для генерации случайного порядка карточек перед началом каждого нового раунда. Это обеспечивает высокую степень повторяемости игрового процесса и делает каждую новую игру уникальной.
 
-![Screenshot](https://github.com/AlexandrPotapov/Concentration/blob/main/Simulator%20Screenshot%201.png "Screenshot 1")
-
-![Screenshot](https://github.com/AlexandrPotapov/Concentration/blob/main/Simulator%20Screenshot%202.png "Screenshot 2")
-
-![Screenshot](https://github.com/AlexandrPotapov/Concentration/blob/main/Simulator%20Screenshot%202.png "Screenshot 3")
+<img src="https://github.com/AlexandrPotapov/Concentration/blob/main/Simulator%20Screenshot%201.png" alt="Снимок экрана 1" width="300">
+<img src="https://github.com/AlexandrPotapov/Concentration/blob/main/Simulator%20Screenshot%202.png" alt="Снимок экрана 1" width="300">
+<img src="https://github.com/AlexandrPotapov/Concentration/blob/main/Simulator%20Screenshot%202.png" alt="Снимок экрана 1" width="300">
