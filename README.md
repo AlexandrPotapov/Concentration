@@ -12,8 +12,8 @@
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td><img src="https://github.com/AlexandrPotapov/Concentration/blob/main/Simulator%20Screenshot%201.png" alt="Снимок экрана 1" width="300"></td>
-<td style="padding-left: 20px;"><img src="https://github.com/AlexandrPotapov/Concentration/blob/main/Simulator%20Screenshot%202.png" alt="Снимок экрана 2" width="300"></td>
-<td style="padding-left: 20px;"><img src="https://github.com/AlexandrPotapov/Concentration/blob/main/Simulator%20Screenshot%203.png" alt="Снимок экрана 3" width="300"></td>
+<td style="padding-left: 100px;"><img src="https://github.com/AlexandrPotapov/Concentration/blob/main/Simulator%20Screenshot%202.png" alt="Снимок экрана 2" width="300"></td>
+<td style="padding-left: 100px;"><img src="https://github.com/AlexandrPotapov/Concentration/blob/main/Simulator%20Screenshot%203.png" alt="Снимок экрана 3" width="300"></td>
 </tr>
 </table>
 </div>
